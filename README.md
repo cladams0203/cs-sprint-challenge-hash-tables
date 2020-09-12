@@ -23,11 +23,17 @@ Commit your code regularly and meaningfully. This practice helps both you (in ca
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your answers beforehand.
 
 1. Hashing functions
+    ans1. A hashing function takes in any input and hashes it into a number.
 2. Collision resolution
+    ans2.  converting the value of the inexed hash to an array to hold multiple items with the same hash number
 3. Performance of basic hash table operations
+    ans3.  performance can vary, most cases will be O(1) but worse case is O(n)
 4. Load factor
+    ans4.  basically the number of items stored divided by the number of slots.
 5. Automatic resizing
+    ans5. when the load factor hits a certain number (0.7>) double the size of the table
 6. Various use cases for hash tables
+    ans6. a digital phone book, student records, library system.  uses unique hash to map to the detailed information.
 
 We expect you to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
